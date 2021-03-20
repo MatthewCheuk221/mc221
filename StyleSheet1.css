@@ -38,6 +38,12 @@ h1 {
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
+div.my_picture {
+	margin:50px 100px;
+}
+div.my_picture > img{
+	border-style: dotted;
+}
 div.about_me {
 	margin:0px 150px 0px 400px; 
 	text-align: justify;
