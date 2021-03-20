@@ -1,7 +1,6 @@
-﻿body {
+body {
 	background-image: url('PolyU3.png');
 	font-family: "Lucida Console", "Courier New", monospace;
-	
 }
 h1 {
   animation: color-change 2s infinite;
@@ -15,42 +14,19 @@ h1 {
   80% { color: blue; }
   100% { color: purple; }
 }
-.tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-
-  /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}
 div.my_picture {
 	margin:50px 100px;
 }
 div.my_picture > img{
 	border: 5px dotted #FFFD00;
-	border-radius: 10px;
+border-radius: 10px;
 }
 div.about_me {
 	margin:0px 150px 0px 400px; 
 	text-align: justify;
-	border: 7px groove rgba(28,110,164,0.5);
-	border-radius: 30px;
+	border-style: dashed;
 }
+
 #cf img {
   position:absolute;
   -webkit-transition: opacity 1s ease-in-out;
@@ -62,17 +38,45 @@ div.about_me {
 #cf img.top:hover {
   opacity:0;
 }
+
+#cf2 img {
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+@keyframes cf2FadeInOut {
+  0% {
+  opacity:1;
+}
+100% {
+opacity:0;
+}
+}
+#cf2{
+position:relative;
+}
+#cf2 img.ac2 {	
+animation-name: cf2FadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 4s;
+animation-direction: alternate;
+}
+#cf2 img.ac{
+	position:absolute;
+	right: 0;
+}
 div.good_intro{
 	clear:both; 
 	text-align: justify;
 	margin:50px 50px 0px 50px;
 	border-style: double;
-	border: 10px double #9E33FF;
 }
 p.p,iframe.drive{
 	margin-left: 50px;
 }
-img.ac{
+img.ac,img.ac2{
 	border-radius: 50%;
 	margin-bottom: 30px
 }
