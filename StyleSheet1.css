@@ -44,7 +44,8 @@ div.my_picture {
 div.my_picture > img{
 	border-style: dotted;
 	position:absolute;
-  left:0;
+}
+.my_picture img{
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
