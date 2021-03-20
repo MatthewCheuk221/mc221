@@ -43,6 +43,15 @@ div.my_picture {
 }
 div.my_picture > img{
 	border-style: dotted;
+	position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+.my_picture img.top:hover {
+  opacity:0;
 }
 div.about_me {
 	margin:0px 150px 0px 400px; 
