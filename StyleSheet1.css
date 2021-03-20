@@ -39,17 +39,20 @@ h1 {
   visibility: visible;
 }
 div.my_picture {
+	position:relative;
 	margin:50px 100px;
 }
 div.my_picture > img{
 	border-style: dotted;
 	position:absolute;
-}
-.my_picture img{
-  -webkit-transition: opacity 1s ease-in-out;
+	left:0;
+	  -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
+}
+.my_picture img{
+
 }
 .my_picture img.top:hover {
   opacity:0;
