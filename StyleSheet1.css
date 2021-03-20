@@ -59,23 +59,9 @@ div.good_intro{
 p.p,iframe.drive{
 	margin-left: 50px;
 }
-p.p {
-  position:relative;
-  height:250px;
-  width:500px;
-}
-img.ac,img.ac2{
+img.ac{
 	border-radius: 50%;
-	margin-bottom: 30px;
-	position:absolute;
-  left:0;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
-}
-img.ac:hover {
-  opacity:0;
+	margin-bottom: 30px
 }
 ul.anicor_images {
     margin: 0;
