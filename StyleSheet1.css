@@ -38,21 +38,18 @@ h1 {
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
-div.my_picture {
+.my_picture {
 	position:relative;
 	margin:50px 100px;
 }
-div.my_picture > img{
+.my_picture img{
 	border-style: dotted;
 	position:absolute;
 	left:0;
-	  -webkit-transition: opacity 1s ease-in-out;
+-webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
-}
-.my_picture img{
-
 }
 .my_picture img.top:hover {
   opacity:0;
