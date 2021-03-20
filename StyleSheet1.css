@@ -38,11 +38,11 @@ h1 {
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
-.my_picture {
+.cf {
 	position:relative;
 	margin:50px 100px;
 }
-.my_picture img{
+.cf img{
 	border-style: dotted;
 	position:absolute;
 	left:0;
@@ -51,7 +51,7 @@ h1 {
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
 }
-.my_picture img.top:hover {
+.cf img.top:hover {
   opacity:0;
 }
 div.about_me {
