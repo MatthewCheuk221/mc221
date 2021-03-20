@@ -47,7 +47,8 @@ div.my_picture > img{
 div.about_me {
 	margin:0px 150px 0px 400px; 
 	text-align: justify;
-	border-style: dashed;
+	border: 7px groove rgba(28,110,164,0.5);
+	border-radius: 30px;
 }
 div.good_intro{
 	clear:both; 
