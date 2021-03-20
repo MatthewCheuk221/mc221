@@ -38,24 +38,6 @@ h1 {
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
-.cf {
-	position:relative;
-	height="200"
-	align="left"
-	margin:50px 100px;
-}
-.cf img{
-	border-style: dotted;
-	position:absolute;
-	left:0;
--webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
-}
-.cf img.top:hover {
-  opacity:0;
-}
 div.about_me {
 	margin:0px 150px 0px 400px; 
 	text-align: justify;
