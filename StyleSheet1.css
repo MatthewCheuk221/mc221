@@ -24,9 +24,9 @@ border-radius: 10px;
 div.about_me {
 	margin:0px 150px 0px 400px; 
 	text-align: justify;
-	border-style: dashed;
+	border: 7px groove rgba(28,110,164,0.5);
+	border-radius: 30px;
 }
-
 #cf img {
   position:absolute;
   -webkit-transition: opacity 1s ease-in-out;
@@ -72,6 +72,7 @@ div.good_intro{
 	text-align: justify;
 	margin:50px 50px 0px 50px;
 	border-style: double;
+	border: 10px double #9E33FF;
 }
 p.p,iframe.drive{
 	margin-left: 50px;
