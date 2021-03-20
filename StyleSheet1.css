@@ -40,6 +40,8 @@ h1 {
 }
 .cf {
 	position:relative;
+	height="200"
+	align="left"
 	margin:50px 100px;
 }
 .cf img{
