@@ -1,3 +1,8 @@
+//Read me
+//Details are in the project pdf
+//Type the following on cmd
+//javac LSRCompute.java
+//java LSRCompute routes.lsa <srcNode> <CA/SS>
 import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Paths;
